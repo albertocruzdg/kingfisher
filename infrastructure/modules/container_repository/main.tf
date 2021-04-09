@@ -25,5 +25,3 @@ resource "aws_ecr_lifecycle_policy" "api_container_repository" {
 }
 EOF
 }
-
-variable "repository_name" {}
